@@ -1,0 +1,9 @@
+<svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path id="Rectangle 364" d="M31 0H0V20H31V0Z" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_960_5542" transform="matrix(0.0322581 0 0 0.05 0 -0.275)"/>
+</pattern>
+<image id="image0_960_5542" data-name="kembali 2.png" width="31" height="31" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGZSURBVHgBxVfbSsNAEJ3eS/sQS8hDm9ti1JCPEPKQ75J+mPgFgvjUVkgqkn5HPSNZL+vWJ2d7YEkCgXPm7JnJhuifkabpcj6fP/q+f19VlUcOocbj8RbXI6/JZLINwzAiacRxvOr1entNrNdwOLwjSTDxaDT6rJi+Kj94npeRFKbTqTIrxvMRYurFYpGQFIqiWIJkR0bF2PcDRMkRA8pm9WAwqIMguCYpcDux1Wzvd+J+vy9rNRNzO5nEndWKBKFQ3Y+K+R5WN6J7rCsmI9Ug3p8lXCCvMcFuSArcTrD6lX6nWtbqU32MkdmKhwvEL2a4uJ2yLLsiSYBkbbYTL1R8S9IASXpqkOCqSBp5nq9sAwVha5MkuSRpcOhsDnRpT0kanGzbgGFRURTJfUQ02AGI2JgOoCPepCfcB9gBHqeWEDZOBHQh3NhC6GQLWADOZzuLgNrZFmDZPjaN6ElGo5v9tqNU6ywDfMAwBfAkdCIAULYMsCgnW9B1gU3AmlyAQ6jPeLzgxpOTfzUNDuFsNnvGn+pDWZYXf737DkwlvNcuBAnaAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
