@@ -6,7 +6,7 @@ const Properti = () => {
   return (
     <>
       <div>
-        <div className="flex items-center justify-between bg-blue-900 px-8 py-4 mb-10">
+        <div className="flex items-center justify-between bg-violet-950 px-8 py-4 mb-10">
         <img
               src='../src/assets/logomassive.png'
               alt="logo"
@@ -16,16 +16,16 @@ const Properti = () => {
           <div className="flex justify-end items-center space-x-1 mt-3 ml-5">
           <Link to="/">
               <img
-                src='../src/assets/account.png'
+                src='../src/assets/icons8-admin-settings-male-24.png'
                 alt="akun"
-                className="w-12 h-12 cursor-pointer"
+                className="w-10 h-10 cursor-pointer"
               ></img>
             </Link>
           </div>
         </div>
         <div className="container mx-auto p-4">
           <h1 className="text-2xl mb-4 font-bold border-b-2 border-black">Rekomendasi Tempat</h1>
-          <Link to="/tambahkan" className="bg-blue-900 text-white px-4 py-2 rounded">+ Tambahkan</Link>
+          <Link to="/tambahkan" className="bg-violet-950 text-white px-4 py-2 rounded">+ Tambahkan</Link>
         </div>
         <ContentCard />
       </div>

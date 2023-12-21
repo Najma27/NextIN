@@ -27,8 +27,8 @@ const ContentCard = ({ cards }) => {
         <div className="flex items-center justify-content mb-3 mt-20 ml-4">
           <p className="text-lg text-red-600 font-bold">Rp.500.000</p>
           <div>
-            <Link to="/edittema" className="bg-blue-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
-            <Link to="/Detailtema" className="bg-blue-900 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
+            <Link to="/edittema" className="bg-violet-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
+            <Link to="/Detailtema" className="bg-violet-950 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
               Detail
             </Link>
           </div>
@@ -56,8 +56,8 @@ const ContentCard = ({ cards }) => {
         <div className="flex items-center justify-content mb-3 mt-20 ml-4">
           <p className="text-lg text-red-600 font-bold">Rp.359.000</p>
           <div>
-            <Link to="/editck" className="bg-blue-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
-            <Link to="/Detailck" className="bg-blue-900 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
+            <Link to="/editck" className="bg-violet-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
+            <Link to="/Detailck" className="bg-violet-950 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
               Detail
             </Link>
           </div>
@@ -85,8 +85,8 @@ const ContentCard = ({ cards }) => {
         <div className="flex items-center justify-content mb-3 mt-20 ml-4">
           <p className="text-lg text-red-600 font-bold">Rp.279.000</p>
           <div>
-          <Link to="/editaston" className="bg-blue-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
-            <Link to="/Detailaston" className="bg-blue-900 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
+          <Link to="/editaston" className="bg-violet-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
+            <Link to="/Detailaston" className="bg-violet-950 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
               Detail
             </Link>
           </div>
@@ -114,13 +114,14 @@ const ContentCard = ({ cards }) => {
         <div className="flex items-center justify-content mb-3 mt-20 ml-4">
           <p className="text-lg text-red-600 font-bold">Rp.189.000</p>
           <div>
-          <Link to="/editrawit" className="bg-blue-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
-            <Link to="/Detailrawit" className="bg-blue-900 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
+          <Link to="/editrawit" className="bg-violet-700 text-white px-7 py-5 rounded mr-30 ml-20 font-bold">Edit</Link>
+            <Link to="/Detailrawit" className="bg-violet-950 text-white px-7 py-5 rounded mr-10 ml-4 font-bold">
               Detail
             </Link>
           </div>
         </div>
       </div>
+      
     </div>
     </div>
     </>

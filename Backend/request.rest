@@ -1,0 +1,26 @@
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJOYWptYSIsImVtYWlsIjoibmFqbWFAZ21haWwuY29tIiwiaWF0IjoxNzAzMDU3NTYzLCJleHAiOjE3MDMwNTc1ODN9.5Hu5lo3Afe87B0WD7wL35HryIgzX-xAciDLoDmqj2Rw
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "Najmalik",
+    "email": "najmaaa@gmail.com",
+    "password": "1111111",
+    "confPassword": "1111111"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "2101020073@student.ac.umrah.id",
+    "password": "889900"
+}
+
+###
+GET http://localhost:5000/token
+
+

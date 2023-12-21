@@ -56,7 +56,7 @@ const Profilpage = () => {
         <div className="mb-8">
           <p className="bg-violet-950 text-white font-bold text-xl mb-4 p-5">Informasi Akun</p>
           <div className="mb-8 flex items-start justify-center">
-            <p className='font-bold text-xl p-5'> User Detail</p>
+            <p className="font-bold text-xl p-5"> User Detail</p>
 
             <div className='ml-20 flex-grow'>
               <label className="block text-gray-700 text-sm font-bold mb-2 py-5 gap-5">
@@ -66,7 +66,7 @@ const Profilpage = () => {
               <label className="block text-gray-700 text-sm font-bold mb-2 py-5">
                 Email
               </label>
-              <input type="text" className="w-full border rounded-md p-2 py-5" placeholder="Masukkan Email" />
+              <input type="text" className=" w-full border rounded-md p-2 py-5" placeholder="Masukkan Email" />
               <label className="block text-gray-700 text-sm font-bold mb-2 py-5">
                 Pekerjaan
               </label>

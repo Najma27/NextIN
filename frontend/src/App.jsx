@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Properti from './Pages/Properti';
 import Login from './Pages/Login';
@@ -24,20 +24,7 @@ import Pembatalan from './Pages/Pembatalan';
 import TampilkamPembatalanPesanan from './Pages/TampilkamPembatalanPesanan';
 
 
-function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:8081/users')
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        setData(data);
-      })
-      .catch((error) => console.error('Error:', error));
-  }, []);
-
+const App = () => {
   return (
     <>
       <BrowserRouter>

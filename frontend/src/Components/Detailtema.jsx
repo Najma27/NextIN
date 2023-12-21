@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Detailtema = () => {
     return (
         <div>
-            <div className="flex items-center justify-between bg-blue-900 px-8 py-4 mb-10">
+            <div className="flex items-center justify-between bg-violet-950 px-8 py-4 mb-10">
             <img
               src='../src/assets/logomassive.png'
               alt="logo"
@@ -12,10 +12,12 @@ const Detailtema = () => {
             ></img>
                 <h1 className="text-4xl font-bold text-white text-align-center ml-20">Properti</h1>
                 <div className="flex justify-end items-center space-x-1 mt-5 ml-3">
-                        <img src='../src/assets/account.png' alt="search" className="w-12 h-12"></img>
+                        <img src='../src/assets/icons8-admin-settings-male-24.png'
+                alt="akun"
+                className="w-10 h-10 cursor-pointer"></img>
       </div>
             </div>
-            <button className="bg-blue-900 text-white py-2 px-4 rounded mb-10 ml-9">
+            <button className="bg-violet-950 text-white py-2 px-4 rounded mb-10 ml-9">
                 <Link to="/properti">Kembali</Link>
             </button>
             <div className="container mx-auto px-8">
